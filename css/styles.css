@@ -1,0 +1,52 @@
+body{
+	background: black;
+	color: white;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+#counter_id{
+	text-align: center;
+	margin-top: 20%;
+	width: 100%;
+}
+
+
+#counter_id > h1:first-child{
+	font-size: 3.2em;
+}
+
+#clock_id{
+	font-size: 3.2em;
+}
+
+#inner_clock_id{
+	border: 2px solid #fff; 
+	padding: 20px;
+	
+
+}
+
+#clock_div{
+	position: relative;
+}
+
+#inner_settings_id{
+	font-size: 20px;
+	position: absolute;
+	bottom: -15px;
+	right: 550px;
+	background: white;
+	color: black;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: none;
+	cursor: pointer;
+}
+
+#inner_settings_id button{
+	border: none;
+	background: transparent;
+}
